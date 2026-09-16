@@ -1,9 +1,22 @@
 {
-  "repositories": {},
+  "repositories": {
+    "introduce-yourself-with-md": {
+      "pages": [
+        "software-development-process-and-methods"
+      ],
+      "slides": [],
+      "assignments": {
+        "the-first-practice": {
+          "pages": [
+            "software-development-process-and-methods"
+          ],
+          "slides": []
+        }
+      }
+    }
+  },
   "general": {
-    "pages": [
-      "software-development-process-and-methods"
-    ],
+    "pages": [],
     "slides": []
   }
 }
