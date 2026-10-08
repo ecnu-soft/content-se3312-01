@@ -1,5 +1,29 @@
 {
   "repositories": {
+    "h2-uml": {
+      "pages": [
+        "h2-uml"
+      ],
+      "slides": [
+        "ch2-1-uml-uml",
+        "ch2-2-uml",
+        "ch2-3-uml-v3-pptx",
+        "ch2-4-uml-uml"
+      ],
+      "assignments": {
+        "h2-uml": {
+          "pages": [
+            "h2-uml"
+          ],
+          "slides": [
+            "ch2-1-uml-uml",
+            "ch2-2-uml",
+            "ch2-3-uml-v3-pptx",
+            "ch2-4-uml-uml"
+          ]
+        }
+      }
+    },
     "introduce-yourself-with-md": {
       "pages": [
         "software-development-process-and-methods"
@@ -16,14 +40,7 @@
     }
   },
   "general": {
-    "pages": [
-      "h2-uml"
-    ],
-    "slides": [
-      "ch2-2-uml",
-      "ch2-4-uml-uml",
-      "ch2-3-uml-v3-pptx",
-      "ch2-1-uml-uml"
-    ]
+    "pages": [],
+    "slides": []
   }
 }
