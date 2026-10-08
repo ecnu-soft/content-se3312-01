@@ -1,0 +1,575 @@
+{
+  "blocks": [
+    {
+      "id": "5767cb44-28d7-474a-94a2-d3d5e6c2c42e",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "软件开发过程与技术｜学生版 v1.4｜2026-10-08",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "547487cc-94d8-4fa6-83c0-c1e49586076f",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "个人完成 · 课内实践 2 学时",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "dce185b9-d737-448c-8bc7-5129a2ce807e",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "依据以下业务规则，完成五种 UML 图并说明建模依据。不要求开发系统代码。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "48cf4342-8617-4d19-8498-47e1ba9407fe",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "8535a7f9-63bc-4b03-a863-19edb1df5d0a",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "rgb(251, 243, 219)",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "一、业务场景与规则",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ef1e73f8-7229-48e1-9053-45d87413fadc",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "某课程使用“课程作业提交系统”：教师创建作业任务、录入评分；学生提交作业、查看本人评分。任务发布后，学生可在规定窗口内提交。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "107bd6ce-33dd-4e54-8478-f7d3c218f78b",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "R1 业务范围",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：本题仅讨论上述四项业务。身份认证、课程与选课信息维护、任务发布过程不展开；身份已确认，教师具备录分权限，任务发布与窗口状态为已知信息。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "436592ba-6a52-4ea0-a108-e03d99205ade",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "R2 业务归属",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：一门课程指一次实际开课；每个任务属于一门课程，每份提交属于一名学生和一个任务。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "26461ae1-083e-40a8-b306-6c17d9226689",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "R3 提交条件",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：学生须有任务所属课程的有效选课关系，任务已发布且窗口可用，并且该学生对该任务尚无当前提交，提交请求才可成功。成功后保存提交并反馈结果。“首次提交”指建立该学生对该任务的首份成功提交，失败后可重新发起请求。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "cfaa6e74-2b3a-492a-b91e-c19a66efa82f",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "R4 拒绝处理",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：不满足提交条件时，返回相应拒绝原因；不新增提交，也不更改已有提交和评分。多项条件同时不满足时，返回其中一项实际原因即可。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f3a8d812-8c4f-49aa-a4c1-7e654a91d4d5",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "R5 当前提交",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：成功保存的提交即为当前提交，同一学生对同一任务至多一份；窗口关闭不使它失效。不同学生或不同任务互不受此数量限制。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "244b6be8-e054-4eab-81aa-97ad77c21eff",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "R6 评分规则",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：仅讨论对未评分提交首次录分。每份提交至多有一份评分；任务满分为已给定的正数，合法分值为 0 至满分（含两端）。合法评分保存后可由提交者查看；越界评分不保存，原提交仍未评分，并返回原因。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "be978a44-9cfb-48d7-aa43-b672b2af58e7",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "R7 简化约定",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：按单次请求、处理期间条件稳定分析。迟交授权、截止时刻的判定、替换与历史版本、复评、删除、退选后的处理、并发及上传故障均不展开。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "062b99c3-2a92-40ce-b5f2-f4a9724ea8b7",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "848c27e6-d052-40be-9f53-3b41dffd9884",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "rgb(251, 243, 219)",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "二、需要完成的五张图",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "6159f686-3929-4908-b412-b7836ebd18b1",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "每种图各一张，使用规范 UML 表达，内容符合UML图例规则，各图之间保持一致。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "8a437d38-5527-4764-8529-4e3268b22f14",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "用例图",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：表达本题的系统范围、参与角色及业务功能；附“首次提交作业”的简要用例说明。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "61503510-0358-410d-8d6a-8d7381d4c2ed",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "概念类图",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：表达主要业务概念、必要属性、关联、多重性与约束。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "839af9d3-222a-4a92-a9d7-9bdd4328a35c",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "活动图",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：描述“提交作业”的完整业务流程。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d0b6712d-33f9-46a4-90f5-0b9223da8307",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "顺序图",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：描述“提交作业”的对象交互。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "9bfa3366-ca65-4c19-a105-e1d6e8a0e13a",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "状态机图",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：描述一份作业提交记录在本题范围内的状态变化。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b441a870-9705-4f45-801f-cba10107be23",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "21a532e7-2301-4ac5-89dd-8830a67a6e88",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "rgb(251, 243, 219)",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "三、提交要求",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "2de8b262-223f-4684-a284-d7ec44971571",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "通过Git仓库提交，包含：",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e71d8bf1-fa87-410a-807f-0405bb07db8d",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "五张图",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：清晰可读的导出图及对应可编辑源文件，二者一致。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a49059a2-c125-4b35-907f-6f5f26a39903",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "简短说明",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：包含用例说明、关键建模理由、自行设计的验证记录及结论。验证须覆盖业务规则与关键边界，能定位到本人模型；说明各图如何对应，有额外假设或待澄清问题时单独注明。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "83046211-044b-45b1-a1d7-cc01ef915145",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "README",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：姓名学号、文件清单、工具版本、打开或导出方法及本人工作。引用资料注明来源；如使用 AI，记录工具、日期、用途、采纳修改与独立验证，未使用则注明。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "bd69b0e1-81a2-4060-9f76-f7ba065378f0",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "提交截止时间与入口以平台公告为准；迟交及修订按课程统一规则执行。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    }
+  ]
+}
