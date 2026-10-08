@@ -16,9 +16,7 @@
     }
   },
   "general": {
-    "pages": [
-      "h2"
-    ],
+    "pages": [],
     "slides": []
   }
 }
