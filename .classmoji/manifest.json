@@ -20,9 +20,10 @@
       "h2-uml"
     ],
     "slides": [
+      "ch2-2-uml",
+      "ch2-4-uml-uml",
       "ch2-3-uml-v3-pptx",
-      "ch2-1-uml-uml",
-      "ch2-2-uml"
+      "ch2-1-uml-uml"
     ]
   }
 }
