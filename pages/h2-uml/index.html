@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      max-width: 85%;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      color: #333;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 1rem 0;
+    }
+    pre {
+      background: #f5f5f5;
+      padding: 1rem;
+      border-radius: 4px;
+      overflow-x: auto;
+    }
+    code {
+      font-family: 'Courier New', Courier, monospace;
+      background: #f5f5f5;
+      padding: 0.2rem 0.4rem;
+      border-radius: 3px;
+    }
+    pre code {
+      background: none;
+      padding: 0;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<p>软件开发过程与技术｜学生版 v1.4｜2026-10-08</p>
+<p><strong>个人完成 · 课内实践 2 学时 · 满分 100 分 · 占课程总评 5%</strong></p>
+<p>依据以下业务规则，完成五种 UML 图并说明建模依据。可整理完善本人随堂草图；本次不要求开发系统代码。</p>
+<h2 style="background-color: #FBF3DB;">一、业务场景与规则</h2>
+<p>某课程使用“课程作业提交系统”：教师创建作业任务、录入评分；学生提交作业、查看本人评分。任务发布后，学生可在规定窗口内提交。</p>
+<ul>
+<li><strong>R1 业务范围</strong>：本题仅讨论上述四项业务。身份认证、课程与选课信息维护、任务发布过程不展开；身份已确认，教师具备录分权限，任务发布与窗口状态为已知信息。</li>
+<li><strong>R2 业务归属</strong>：一门课程指一次实际开课；每个任务属于一门课程，每份提交属于一名学生和一个任务。</li>
+<li><strong>R3 提交条件</strong>：学生须有任务所属课程的有效选课关系，任务已发布且窗口可用，并且该学生对该任务尚无当前提交，提交请求才可成功。成功后保存提交并反馈结果。“首次提交”指建立该学生对该任务的首份成功提交，失败后可重新发起请求。</li>
+<li><strong>R4 拒绝处理</strong>：不满足提交条件时，返回相应拒绝原因；不新增提交，也不更改已有提交和评分。多项条件同时不满足时，返回其中一项实际原因即可。</li>
+<li><strong>R5 当前提交</strong>：成功保存的提交即为当前提交，同一学生对同一任务至多一份；窗口关闭不使它失效。不同学生或不同任务互不受此数量限制。</li>
+<li><strong>R6 评分规则</strong>：仅讨论对未评分提交首次录分。每份提交至多有一份评分；任务满分为已给定的正数，合法分值为 0 至满分（含两端）。合法评分保存后可由提交者查看；越界评分不保存，原提交仍未评分，并返回原因。</li>
+<li><strong>R7 简化约定</strong>：按单次请求、处理期间条件稳定分析。迟交授权、截止时刻的判定、替换与历史版本、复评、删除、退选后的处理、并发及上传故障均不展开。</li>
+</ul>
+<h2 style="background-color: #FBF3DB;">二、需要完成的五张图</h2>
+<p>每种图各一张，使用规范 UML 表达，内容符合第一章规则，各图之间保持一致。</p>
+<ol>
+<li><strong>用例图</strong>：表达本题的系统范围、参与角色及业务功能；附“首次提交作业”的简要用例说明。</li>
+<li><strong>概念类图</strong>：表达主要业务概念、必要属性、关联、多重性与约束。</li>
+<li><strong>活动图</strong>：描述“首次提交作业”的完整业务流程。</li>
+<li><strong>顺序图</strong>：描述“首次提交作业”的对象交互。</li>
+<li><strong>状态机图</strong>：描述一份作业提交记录在本题范围内的状态变化。</li>
+</ol>
+<h2 style="background-color: #FBF3DB;">三、提交要求</h2>
+<p>提交 <code>H2-学号-姓名.zip</code>，包含：</p>
+<ol>
+<li><strong>五张图</strong>：清晰可读的导出图及对应可编辑源文件，二者一致。</li>
+<li><strong>简短说明</strong>：包含用例说明、关键建模理由、自行设计的验证记录及结论。验证须覆盖业务规则与关键边界，能定位到本人模型；说明各图如何对应，有额外假设或待澄清问题时单独注明。</li>
+<li><strong>README</strong>：姓名学号、文件清单、工具版本、打开或导出方法及本人工作。引用资料注明来源；如使用 AI，记录工具、日期、用途、采纳修改与独立验证，未使用则注明。</li>
+</ol>
+<p><strong>评分：正确性 40、分析理由 25、验证证据 25、可复现提交 10</strong>。其中正确性按用例图及简述 6、类图 10、活动图 8、顺序图 8、状态机图 8 分配。</p>
+<p>不另写长报告。截止时间与入口以平台公告为准；迟交及修订按课程统一规则执行。</p>
+
+</body>
+</html>
