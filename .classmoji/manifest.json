@@ -41,6 +41,8 @@
   },
   "general": {
     "pages": [],
-    "slides": []
+    "slides": [
+      "ch3-uml"
+    ]
   }
 }
