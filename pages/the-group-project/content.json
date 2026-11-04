@@ -1,14 +1,796 @@
 {
   "blocks": [
     {
-      "id": "p1",
+      "id": "176a19e6-7b64-42aa-b8e4-94f9ab716eba",
       "type": "paragraph",
       "props": {
-        "textColor": "default",
         "backgroundColor": "default",
+        "textColor": "default",
         "textAlignment": "left"
       },
       "content": [],
+      "children": []
+    },
+    {
+      "id": "e6295fea-da5c-4b85-9667-2a27795bdbc9",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "本课程期末小组大项目现已发布，占课程总评的 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "60%",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。各组需完成一个需求有依据、设计可解释、系统可运行、测试可复现的软件产品，并展示团队协作过程和个人贡献。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "aafa1195-aafb-4d0a-83d7-bde43fa8a79d",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "一、分组与项目方向",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b09fe1dc-8e50-4b18-89a9-9e52aaba9b7a",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "每组 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "3—4人，最多4人",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "，A/B各5组，按教师确认的分组和配对安排开展项目。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "3353a482-a11f-49a1-b056-df2dbf5f0f56",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "A组：校内多部门智能会议室预约系统。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 完成条件查询、预约与取消、跨部门审批、权限和冲突控制，以及自然语言、语音辅助查询与确认预约。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f8bc5ec9-547f-4cc7-82fa-20835dd44c02",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "B组：大模型辅助API测试平台。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 完成需求与接口输入、模型辅助生成用例、人工审核、真实HTTP执行、确定性断言、缺陷确认与回归，并在标准测试对象上开展评价。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ddac4a82-5b05-45b1-9cab-d93b7a84ce8e",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "A/B固定配对共测。B组的标准测试对象及访问方式由教师统一提供；配对A组暂不可用时，B组继续标准对象测试，教师协调备用方案。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "37e6315f-d33b-4ee0-9b4a-708f7efa5abd",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "二、实践要求",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f598f532-ef28-4b45-a807-f11d78b1bdaf",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "完成核心范围。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 以对应任务书中的A01—A08或B01—B08为验收依据，明确已完成、未完成及已知限制。扩展功能不额外加分，也不能替代核心要求。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "5bb84e7c-bc51-4dde-9ee9-5d51d0669a81",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "保留开发过程。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 使用Git管理版本，明确任务负责人，每周更新进展、阻塞与下一步，保留评审、变更及反馈落实记录。按M1需求、M2设计与最小可运行版本、M3测试与共测、M4发布冻结组织成果。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a7bdefd8-ca3f-4603-9218-a780eeed45d0",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "落实个人责任。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 每人至少完成一项可核验成果，并参与一次实质评审。职责可兼任，贡献可以来自需求、设计、实现、测试、部署或评审。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "affcf3a6-4461-4833-96f0-df4afce284a9",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "如实使用AI。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 允许使用AI辅助研发，需记录用途、采纳修改和独立验证。模型输出不能替代真实执行结果，模拟结果应明确标注，无需提交全部聊天记录。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ca79217c-0867-47cd-8196-da4e3eee04ba",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "三、结项提交",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "0a980901-62be-4e46-942a-7b23ffd26ee1",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "通过Classmoji提交项目成果及代码仓库入口，使用README统一说明组号、成员、固定版本、材料目录与查看方法。内容包括：",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ba995e3e-c9e2-4335-94c2-16cb9f56725e",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "代码与运行：",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 源码、固定commit/tag、依赖、启动和数据重置说明。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "0a2e119d-1119-490f-aa73-c3f51edf2a45",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "需求与设计：",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 产品范围、验收条件、核心模型与架构、接口与数据设计、关键设计决策。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "dc72b2a2-171f-4861-9fac-2e4b23b52123",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "测试与发布：",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 测试用例、原始结果、缺陷与回归、共测记录，以及部署、健康检查、用户验收和恢复/回滚验证。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d0d59390-771e-4e33-81a6-92d81796b1ab",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "过程与个人：",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 任务、评审、变更记录，AI使用声明，以及每人不超过1页的贡献索引。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b1d74c9a-3cac-4c20-80f4-05add30f1def",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "汇报材料：",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 团队汇报PPT及现场演示准备。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "aeb81dad-1bbb-4803-8591-eec95a1b90a6",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "材料可以合并并链接仓库，无需重复编成长报告。最终验收与演示使用同一冻结版本，历史测试和回归记录保留各自版本。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "be3e868b-ed5c-4c1a-abdb-21458da38f18",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "四、评分与团队汇报",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1360173a-75fa-4877-a3f8-adfaa1c18571",
+      "type": "table",
+      "props": {
+        "textColor": "default"
+      },
+      "content": {
+        "type": "tableContent",
+        "columnWidths": [
+          null,
+          null,
+          null
+        ],
+        "headerRows": 1,
+        "rows": [
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "项目",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "分值",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "评价内容",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "团队共同分",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "75",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "产品与需求10、架构与实现20、测试与AI验证20、过程与协作15、路演10",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "个人分",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "25",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "实质成果10、质量与履约7.5、协作评审7.5",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "id": "f05b15b3-4751-459d-a88d-7cd9510dae18",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "项目分＝团队分75分＋个人分25分，再按60%计入课程总评。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 阶段检查不额外叠加计分，同组成员的个人分分别评定。教师依据本人实际成果、验证与评审记录及贡献索引评分，组内互评用于核实事实，不由组长直接决定个人成绩。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "cf1fc29f-5656-416a-8de0-b0b607cc8752",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "团队路演共 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "12分钟：介绍3分钟、演示5分钟、问答4分钟",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "不再安排逐人个人答辩",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "，也不新增个人报告或考试。每人保留原要求的不超过1页贡献索引，链接已有成果即可；存在贡献或证据争议时，按课程规则补充核验。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a1a008d5-9671-43b7-83e7-f234f6cc85db",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "五、时间与后续安排",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d89a1912-0d21-40da-a2c6-adc3a96364e2",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "团队验收与路演：2027年1月7日、1月14日上午。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 各组场次、地点和具体时段另行通知。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "7baad621-6fe0-416b-b48a-dc95d8d348e1",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "提交截止、阶段检查和版本冻结时间：",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 以Classmoji任务页面及教师公告为准。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1712ee4d-7f8d-4486-9155-2b9518f8531a",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "请各组先核对成员、项目方向与职责，阅读对应A/B任务书和《软件开发过程与技术—课程项目结项要求》，据此整理当前进展与后续计划。核心验收、评分细则和异常处理按上述课程材料执行，有范围或规则疑问及时向教师澄清。",
+          "styles": {}
+        }
+      ],
       "children": []
     }
   ]
