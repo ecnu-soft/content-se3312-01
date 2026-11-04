@@ -25,11 +25,15 @@
       }
     },
     "the-group-project": {
-      "pages": [],
+      "pages": [
+        "the-group-project"
+      ],
       "slides": [],
       "assignments": {
         "the-group-project": {
-          "pages": [],
+          "pages": [
+            "the-group-project"
+          ],
           "slides": []
         }
       }
@@ -50,9 +54,7 @@
     }
   },
   "general": {
-    "pages": [
-      "the-group-project"
-    ],
+    "pages": [],
     "slides": [
       "ch3-uml"
     ]
