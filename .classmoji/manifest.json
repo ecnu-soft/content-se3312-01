@@ -24,6 +24,16 @@
         }
       }
     },
+    "the-group-project": {
+      "pages": [],
+      "slides": [],
+      "assignments": {
+        "the-group-project": {
+          "pages": [],
+          "slides": []
+        }
+      }
+    },
     "introduce-yourself-with-md": {
       "pages": [
         "software-development-process-and-methods"
@@ -40,7 +50,9 @@
     }
   },
   "general": {
-    "pages": [],
+    "pages": [
+      "the-group-project"
+    ],
     "slides": [
       "ch3-uml"
     ]
