@@ -1,0 +1,15 @@
+{
+  "blocks": [
+    {
+      "id": "p1",
+      "type": "paragraph",
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    }
+  ]
+}
