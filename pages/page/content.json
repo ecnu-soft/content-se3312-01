@@ -4,11 +4,17 @@
       "id": "p1",
       "type": "paragraph",
       "props": {
-        "textColor": "default",
         "backgroundColor": "default",
+        "textColor": "default",
         "textAlignment": "left"
       },
-      "content": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "报告时间段：",
+          "styles": {}
+        }
+      ],
       "children": []
     }
   ]
