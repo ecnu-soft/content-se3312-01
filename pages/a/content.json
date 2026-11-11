@@ -1,14 +1,3004 @@
 {
   "blocks": [
     {
-      "id": "p1",
+      "id": "9e8c40cd-5363-4c86-aa5b-4a4bc6a809cb",
       "type": "paragraph",
       "props": {
-        "textColor": "default",
         "backgroundColor": "default",
+        "textColor": "default",
         "textAlignment": "left"
       },
       "content": [],
+      "children": []
+    },
+    {
+      "id": "dc5c9719-b9bb-4d14-bc58-834ce3bc2daa",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "《软件开发过程与技术》期末小组项目 · v1.0 教师审阅稿 · 2026-11-10",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "95a642ed-3e12-4ef9-9586-fec192351b32",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "按已发布公告，任务书中的 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "A01–A08 均须通过",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。第2节的性能数值及统一测试条件为",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "本轮拟定门槛，教师试跑确认后随清单发布",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。第5节按已确认课日列出周成果，",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "阶段检查时段、提交截止、冻结时点与团队场次待教师在 Classmoji 公布",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "4a5741e0-d0eb-4c93-a0cf-d4abbb589152",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "1. 核心需求验收（8 项）",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "da85c381-cbb0-4155-8cf5-3b7dfe9b3ac4",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "验收以预约人和部门管理员实际办理业务时得到的结果为准。各组自行决定产品的交互、呈现和技术实现。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "dbed034b-7131-44a7-81fc-e843d18515c2",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "完整业务流程：预约人查找空房并提交申请；符合条件的同部门申请直接批准，跨部门申请由房间所属部门审批。预约人可以取消自己的待审批或已批准预约，授权人员可以核对时段占用和处理记录。使用自然语言或语音发起预约时，由预约人确认后按同样的权限和时段规则办理。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "5e04d827-1633-4256-8dc9-a17b10526d6e",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "验收场景至少包含 2 个部门，每部门至少有 2 间会议室、1 名普通预约人和 1 名管理员。每间会议室有明确的容量、设备、所属部门和开放时段。统一使用 Asia/Shanghai 时区，核对涉及日期和时段的结果。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b29e87d0-a8bf-4eb3-bd4e-f2890db30456",
+      "type": "table",
+      "props": {
+        "textColor": "default"
+      },
+      "content": {
+        "type": "tableContent",
+        "columnWidths": [
+          null,
+          null,
+          null
+        ],
+        "headerRows": 1,
+        "rows": [
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "编号",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "用户需要",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "可观察的通过条件",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "A01",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "我想按会议时间、人数、设备和部门找到能订的会议室。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "按给定条件查询，符合条件、在开放时段内且未被占用的房间能查到；不符合条件的房间不出现，没有可用房间时能确认无匹配结果。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "A02",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "我想直接预约本部门的空房。会议有变时，我要能取消自己的预约。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "提交有效的同部门申请后直接得到已批准的结果，只有一条对应预约，申请人、房间和时段正确。本人可取消自己待审批或已批准的预约，取消后可核对结果，时段重新可用。已拒绝或已取消的预约保持原状态。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "A03",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "借用其他部门的房间时，我要知道审批结果；房间所属部门管理员要能批准或拒绝申请。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "提交有效的跨部门申请后进入待审批并占用时段。仅房间所属部门管理员可批准或拒绝待审批申请；批准时再次核对权限及是否与其他预约冲突。批准后继续占用，拒绝后释放；已批准、已拒绝或已取消的申请不能再次审批。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "A04",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "我需要确信同一间房不会被同时安排给两场会议。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "开始时间不早于结束时间、超出开放时段或与占用时段重叠的申请被拒绝，符合其他条件的相邻时段可预约。两名有权用户同时申请同一空房的同一时段，只有一笔预约成立并占用时段，另一笔被拒绝；复查结果无重叠占用。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "A05",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "我的预约只能由我取消，跨部门申请只能由房间所属部门的管理员审批。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "各可办理入口均拒绝越权取消他人预约或审批非本部门房间的申请；原预约状态与时段占用保持不变。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "A06",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "我想用自然语言找房或预约。信息不清楚时请先问我，订房前让我确认。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "实际使用 AI 辅助找房和预约。用户可核对系统理解的条件；关键信息缺失或有歧义时先询问，澄清后继续。查询按 A01 返回可约房间；确认预约前可核对房间、日期、起止时间及审批要求，且尚未建单。确认时按 A02–A05 核对权限与时段再办理；重复确认同一申请不会产生第二条预约。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "A07",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "我想用语音找房或发起预约。听错了我能改，语音用不了也能继续办。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "用真实语音分别完成找房和确认预约。用户可核对并修正识别文字，后续按 A06 办理。识别失败或服务异常时有明确说明，用户可改用文字或常规操作继续办理。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "A08",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "预约结果有疑问时，授权人员要能查清处理经过；验收人员要能重现结果。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "抽查创建、批准、拒绝及取消，能核对操作者、时间、操作、对应预约和实际结果。在干净环境按第3节交付说明启动系统并重置数据，可重现预约、审批和取消流程。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "id": "bf73ab08-1f36-43c0-a323-bfbfc2a0e013",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "功能测试沿用最低规模 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "12 个确定性业务用例、6 条自然语言输入、3 段短语音",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。自然语言覆盖明确请求 2 条、缺信息 2 条、歧义或越权意图 2 条。核对系统理解的条件、是否需要澄清，以及确认前是否已产生预约。并发与重复确认后，复查实际预约和时段占用。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "8f9193cc-66a9-4295-b4fe-46d781e57a82",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "2. 性能验收（5 项拟定门槛）",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "31e5a3b7-8891-4bcb-85b1-f07b0a7f3b5c",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "从使用者在实际使用入口提交操作开始计时，到完整业务结果可查看或核对为止。教师统一评测条件，拟以 4 vCPU、8 GiB 内存的资源预算及可比的网络条件开展试跑。各组自行选择测量工具。记录实际环境、数据、测量方法和冻结版本，预先运行 30 秒后采样。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "4124f110-74f0-46e2-acf8-108520721d6c",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "P95 表示至少 95% 的操作在该时间内得到正确结果，按耗时升序取第 ⌈0.95×样本数⌉ 项。符合规则的拒绝按有效结果计。非预期超时、运行错误或业务结果错误按无限长耗时计入。提交样本数、失败数、原始计时和复测方法。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "4f6b9b02-71fe-45ed-85e9-e6f1f0a5b675",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "普通预约业务使用包含 20 间会议室、100 个测试账号、5,000 条预约记录的同一组测试数据，覆盖不同部门和有无占用的时段。每轮从相同数据起点开始。文字和语音辅助单独测量。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "535b7096-f212-4c6e-b05d-10bdfc596ef7",
+      "type": "table",
+      "props": {
+        "textColor": "default"
+      },
+      "content": {
+        "type": "tableContent",
+        "columnWidths": [
+          null,
+          null,
+          null
+        ],
+        "headerRows": 1,
+        "rows": [
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "编号",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "用户体验目标（拟定）",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "验收场景与测量方法",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "A-P01",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "找房时，至少 95% 的查询在 1 秒内给出正确结果。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "模拟 10 人同时找房，持续 5 分钟，至少采集 500 次查询结果。变换日期、部门、容量和设备，覆盖有房与无房。从提交条件计至结果完整可用。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "A-P02",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "提交预约、审批或取消后，至少 95% 的操作在 1.5 秒内给出办理结果。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "模拟 10 人同时操作，测至少 200 次创建、批准、拒绝和取消，每类至少 30 次。安排相应身份、预约状态和独立时段。从提交操作计至结果可核对，办理成功时业务状态已经生效。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "A-P03",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "集中用房时，每秒平均正确完成至少 10 次业务操作，非预期失败率不超过 1%。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "模拟 20 人同时使用 5 分钟，约 4 次查询搭配 1 次预约、审批或取消。为正常操作安排互不争用的时段。用正确完成数除以测量秒数，并以发起操作总数计算非预期失败率。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "A-P04",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "用文字提出需求后，至少 95% 的请求在 20 秒内给出系统理解的条件或明确的澄清问题。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "在可比的网络和服务可用条件下，按已公布的输入类型逐次实测 20 次。从提交文字计至用户可查看所理解的条件或明确的澄清问题。用户思考、补充信息及确认的用时另计。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "A-P05",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "提交短语音后，至少 95% 的请求在 10 秒内给出可核对和修正的识别文字。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "用 3 段各不超过 10 秒的语音共测 10 次。从提交录音计至识别文字可查看并修正。随后理解意图或办理预约的时间另计。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "id": "38e76369-a7be-4435-9e0e-e162d7a2ec8c",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "备注:A-P04、A-P05为观测指标；若经确认是第三方模型/语音服务本身时延、限流导致不达标，不判定本组系统缺陷，只记录实测数据，不直接判性能项不通过；业务逻辑仍必须全部通过核心需求验收中的A06/A07功能验收。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "2a2ec8d7-f29e-437b-b90a-a9ff32329843",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "3. 最终交付物与质量要求",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "0af4a5e5-8b3f-4217-b1f2-afc2ebb90d80",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "通过 Classmoji 提交代码仓库及成果入口。README 写清组号、成员和冻结版本，并按下表逐项列出制品名称和位置。文档可以独立成篇，也可以合并为具名章节。已有证据可用链接引用。源码和可运行软件分别标出获取和运行入口，并对应同一冻结版本。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "317819e9-d50c-41fa-9b9d-9df515c01c88",
+      "type": "table",
+      "props": {
+        "textColor": "default"
+      },
+      "content": {
+        "type": "tableContent",
+        "columnWidths": [
+          null,
+          null,
+          null
+        ],
+        "headerRows": 1,
+        "rows": [
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "交付制品",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "形成阶段",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "内容与质量要求",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "项目计划书",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "W9 提交首版，实施中更新",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "写清项目目标、范围、分工、采用的开发过程、阶段安排、W9–W18 周成果检查清单、里程碑和关键依赖。检查清单应能查到每周的产物、负责人和检查方法，详见第5节。结项时保留原计划及主要调整记录。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "需求规格说明书",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "需求分析，随确认的变更更新",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "说明预约人和部门管理员的目标、业务边界、预约状态、时段占用、权限及异常规则。列出 A01–A08 的验收条件和性能验收口径，标明已确认要求、拟定门槛和范围外功能。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "系统设计文档",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "设计与实现",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "包含核心模型与架构图、关键接口约定、数据设计和 1–2 项实际影响实现的设计决策。能对照需求解释审批、冲突控制、重复确认及 AI 辅助办理的边界。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "测试计划",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "测试准备，随范围与版本更新",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "写清测试范围、环境、数据、负责人、测试顺序和判定依据。以 A01–A08、A-P01–A-P05 关联用例与测量方法，覆盖权限、冲突和并发、文字和语音、配对共测及复测。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "测试报告",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "测试与共测，结项汇总",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "逐项给出实际结果、被测版本及原始证据位置，附第1节规定的用例与输入样本。包含功能、性能、真实模型和语音及失败回退记录、共测结论、缺陷与回归。用户验收（UAT）记录写明角色、场景、预期、实际和结论。标明合成输入与脱敏证据的来源。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "源代码",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "实现与冻结",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "提交完整 Git 仓库入口、最终 commit/tag、锁定的依赖、启动命令和配置示例。验收人员能取得冻结版源码及运行所需文件。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "完整可运行的系统软件（发布版）",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "集成、部署与冻结",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "提供可实际运行的冻结版，以及启动、访问和数据重置所需说明。验收人员可在干净环境启动、切换预约人和管理员身份并复验 A01–A08。提供测试账号和获取所需权限的方法，妥善保管凭据。此项用于核验 A08 的可复现交付。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "部署与恢复说明及验证记录",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "部署演练与冻结",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "提供部署、健康检查、数据初始化、恢复或回滚步骤。以当前交付版本实际验证至少一次，注明恢复对象及恢复后的检查结果。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "项目结项报告",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "结项",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "汇总项目目标达成情况、最终版本、核心需求验收结果、计划与实际差异、已知问题及团队复盘。通过链接指向需求、测试、共测和发布证据，便于复核结论。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "过程记录、个人贡献索引与 AI 使用声明",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "全过程，结项汇总",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "可定位任务负责人、Git 版本、每周进展、评审、变更和反馈落实记录。每人至少有一项可核验成果并参加一次实质评审，提交不超过 1 页的贡献索引。AI 使用声明写明用途、采纳或修改及独立验证。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "团队汇报 PPT 与演示清单",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "结项与路演",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "提交汇报 PPT、演示顺序及所用账号和数据说明。12 分钟包括介绍 3 分钟、演示 5 分钟、问答 4 分钟。现场演示和复验均使用冻结版。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "id": "bdff4c4b-3411-4abc-ae94-2dd095cc25ac",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "4. 共同验收约定",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f2964127-bd42-41eb-9c70-cb9fee06b29e",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "版本和结果。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 冻结时登记 commit/tag、制品哈希、测试数据版本和依赖。每条验收证据注明条目 ID、环境、输入、预期、实际、结果及原始记录位置。结果分为通过、未通过、阻塞待复验，记录原因和负责人。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "8e46fe16-b3a9-4664-a832-804602fa5c02",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "异常复验。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 设备、网络或统一外部服务故障时，登记影响范围，出示同冻结版已有的真实证据，按课程规则在 3 个自然日内预约同版本复验。保持代码、配置和制品可核对，复验用于确认原能力。模拟记录标明用途，真实能力由真实调用或执行验证。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ec9b5852-5fb0-4fde-aa67-f96b831ce472",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "评分。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 项目分为团队 75 分加个人 25 分，占课程总评 60%。个人 25 分依据已有成果和贡献索引，按实质成果 10、质量与履约 7.5、协作评审 7.5 评价。团队问答统一放在路演内。M1–M4 的证据纳入既有过程评价，阶段检查不另叠加计分。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "886fb2e5-33d1-4b1f-b5c7-68dfbf9a3597",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "核心项认定。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 按第1节逐项核验 A01–A08，其中 A08 同时查阅第3节的交付证据。固定版本复验后仍有核心项未通过时，按现行量规将可运行交付子项 8 分记 0，架构与实现维度最高 11.5 分，其余子项按证据评价。拟定性能门槛确认后进入对应质量证据。性能偏差记录实测值、原因和改进，核心项封顶以 A01–A08 为依据。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "dc4a6170-aeea-43e3-85d8-5463a011c3aa",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "配对供测。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 按 A1/B1 至 A5/B5 交接。向 B 提供明确的接口合同、版本、授权测试账号、独立测试数据及重置办法。按预期、实际、证据核实报告，记录接受、拒绝或待补充的理由，并在同一用例上复测。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "157c2737-676c-4804-a9b5-8c00bf85c31f",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "范围与数据。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 校内身份、会议室和账号使用课程合成数据。只在授权范围执行共测与压测。跨部门审批采用一级审批，周期预约、日历同步等按原任务书作为扩展。演示可在本地或课程环境完成。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b975b418-0c0f-4e2c-8660-c13421923188",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "5. W9–W18 开发过程与周成果参考",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "c8863aca-91e3-4045-a133-022ec9042a2a",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "W9 必交《项目计划书》首版。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 每组在计划中写明采用的开发过程模型、阶段划分和起止周、W9–W18 每周的产物与检查方法、各项负责人，以及关键里程碑的预计周次、达成条件和证据。以下两种方式任选其一。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "232fc6bc-9bf1-4b99-a66d-8ff444100136",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "自拟方案。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 根据本组选用的过程模型安排阶段和每周成果，明确如何对接课程检查点、配对共测、冻结和团队验收。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1fe77bfe-c163-42ab-9b79-5b1c6ae1bc6e",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "采用教师参考方案。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 选用下表其中一列，可引用其阶段和周成果要求。补齐本组分工、各周制品位置和里程碑证据，按选定安排执行和提交。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "34f1371b-3771-4c4a-9c68-540991454668",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "两种方式均对接课程 M1 需求、M2 设计与最小可运行版、M3 测试与共测、M4 发布冻结。W9 核对既有 M1 成果并安排缺口整改。M2、M3、M4 分别以 W9、W13、W16 为计划周次。表内日期为课日或已确认的验收日，检查时段、提交截止和冻结时点以 Classmoji 公告为准。与配对 B 约定接口、供测版本和联调安排。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "89d951d4-4bad-459f-8eeb-65a48adc7b84",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "每周按本组清单核对进展，在看板或周记录中写明实际成果及证据、阻塞、负责人和下一步。计划调整时记录原因及对里程碑和配对共测的影响。M2、M4 各保留一次匿名互评。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "0cd6b2fe-0266-4dd7-bcda-12f43a4f373e",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "迭代增量方案分两轮交付，先跑通基础预约，再加入文字和语音并验证。顺序式（瀑布式）方案先建立需求和设计基线，再集中实现和测试。两列均给出可供参考的阶段划分和周产物。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "2932a41f-ce0d-4e30-b042-d365f8600d4a",
+      "type": "table",
+      "props": {
+        "textColor": "default"
+      },
+      "content": {
+        "type": "tableContent",
+        "columnWidths": [
+          null,
+          null,
+          null
+        ],
+        "headerRows": 1,
+        "rows": [
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "周次与课日",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "迭代增量（参考）",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "顺序式（参考）",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "W9 · 11/12",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "第一轮启动、M2 准备。",
+                    "styles": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 提交项目计划书。核对 M1，保留状态图、架构、权限设计和 1–2 项设计决策初稿。从干净环境启动并演示查房到同部门建单。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "需求与设计基线、M2 准备。",
+                    "styles": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 提交项目计划书、需求规格、核心模型、架构和 1–2 项设计决策。从干净环境启动并重置数据，用查房到同部门建单的最小流程验证设计。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "W10 · 11/19",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "第一轮开发。",
+                    "styles": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 跑通同部门预约、跨部门待审和处理、本人取消，向 B 提供接口约定、版本、测试账号和重置办法。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "详细设计与实现。",
+                    "styles": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 完成系统设计文档与测试计划初稿，按模块分派实现。先交接接口约定、测试账号和重置办法，约定供测版本。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "W11 · 11/26",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "第一轮验证。",
+                    "styles": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 标记基础可运行版，记录权限、时段边界、审批和并发的冒烟结果。与 B 完成连通、身份和数据重置预检。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "基础功能集成。",
+                    "styles": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 提供查询、预约和权限校验的供测版本，保留核心模块检查结果。与 B 完成连通、身份和数据重置预检。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "W12 · 12/03",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "第二轮开发与共测。",
+                    "styles": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 加入真实文字和语音辅助，验证澄清、确认、回退。向 B 更新可复现对象，登记共测问题。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "完整系统集成。",
+                    "styles": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 合并预约、审批、取消、权限与冲突控制及文字和语音能力。提交集成版和基本验证结果，开始配对共测。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "W13 · 12/10",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "第二轮验证、M3 测试与共测。",
+                    "styles": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 按 A01–A08 汇总结果，附第1节规定的用例、输入样本与原始记录，记录共测结论、缺陷处置与回归。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "系统测试、M3 测试与共测。",
+                    "styles": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 按计划执行 A01–A08，形成测试报告初版，附第1节规定的用例与输入样本、原始结果、共测及缺陷回归证据。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "W14 · 12/17",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "候选版试跑。",
+                    "styles": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 预约人和管理员分别走查验收场景，保留用户验收结果、A-P01–A-P05 试跑样本及待处理项。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "用户验收与性能验证。",
+                    "styles": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 按验收场景复核全流程，试跑 A-P01–A-P05，提交用户验收记录、测量结果和整改清单。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "W15 · 12/24",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "发布候选与恢复演练。",
+                    "styles": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 从干净环境启动并重置数据，复测重点缺陷和性能偏差，保存健康检查与恢复记录。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "部署演练与回归。",
+                    "styles": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 验证部署、重置、健康检查和恢复步骤，复跑整改用例，更新测试报告和部署记录。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "W16 · 12/31",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "M4 发布冻结准备。",
+                    "styles": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 核对第3节全部制品，汇齐结项报告、贡献索引和路演材料，完成第二次匿名互评，按公布时点固定版本。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "M4 发布冻结准备。",
+                    "styles": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 核对第3节全部制品，汇齐结项报告、贡献索引和路演材料，完成第二次匿名互评，按公布时点固定版本。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "W17 · 2027/01/07 上午",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "第一次团队验收。",
+                    "styles": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 当场组用冻结版路演、演示和问答，登记验收结果。次场组复核冻结版运行和证据入口。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "第一次团队验收。",
+                    "styles": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 当场组用冻结版路演、演示和问答，登记验收结果。次场组复核冻结版运行和证据入口。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "W18 · 2027/01/14 上午",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "第二次团队验收。",
+                    "styles": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 当场组用冻结版完成验收。各组保留同版证据及验收或复验记录。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "第二次团队验收。",
+                    "styles": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 当场组用冻结版完成验收。各组保留同版证据及验收或复验记录。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "id": "dd2872ae-30e7-48c1-9b4d-a408746e1ad6",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "6. 编制依据与发布前确认",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "66413138-1db2-4b1d-bcb3-f6bd09481aa8",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "题目、最低验收与共测流程依据《课程实践与项目发布 v1.2》P6–P12、对应赛道任务书及团队共同任务书。结项评分与路演采用 11 月 5 日后项目公告、结项要求 v1.1 和现行评分量规。课日与验收日期采用《授课日历 2026 秋季》。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "56d23a4a-979f-4270-be19-1a3af09fc9f0",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "2024 进度计划提供版本基线、跨组评审和联调的做法。2025 计划提供准备、基础迭代、核心迭代和结项的阶段结构。2026 计划提供先跑通基础业务、再集成 AI 并行测试的组织方式。两套参考安排均按本课程检查点和配对共测需要编排。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "726d3816-6bdb-4b54-93d8-34e13954b6e5",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "发布前由教师确认统一评测环境、样本与拟定门槛在小规模试跑中的可行性，并公布 M2/M3/M4 的检查、提交与冻结时点，及 1 月两场的组别与地点。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "8cbfcd95-f61a-4fc4-9084-4777023be229",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "A 赛道另需确认模型与语音服务的可用性、可比额度及外部故障认定方式，给各组公平的测试条件。",
+          "styles": {}
+        }
+      ],
       "children": []
     }
   ]
